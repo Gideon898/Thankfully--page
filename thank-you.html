@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Granted - Thank You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LOADING SCREEN -->
+  <div id="loading" class="loading">
+    🔐 Verifying Payment...
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="content" class="box hidden">
+
+    <h1>🎉 Payment Successful!</h1>
+
+    <p class="sub">
+      Your access to <b>Affiliate Profit Blueprint 2026</b> is now unlocked.
+    </p>
+
+    <p>
+      Click below to download your ebook and start immediately.
+    </p>
+
+    <a href="YOUR_SECURE_EBOOK_LINK" class="btn big">
+      📥 Download Ebook
+    </a>
+
+    <hr>
+
+    <h2>📱 Need Help?</h2>
+    <p>If anything is unclear, message me on WhatsApp:</p>
+
+    <a href="https://wa.me/2349060814505" class="btn">
+      💬 Open WhatsApp Support
+    </a>
+
+  </div>
+
+</div>
+
+<!-- JS -->
+<script>
+  // Simulate secure unlock delay
+  window.onload = function () {
+    setTimeout(() => {
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("content").classList.remove("hidden");
+
+      // Auto scroll to content
+      document.getElementById("content").scrollIntoView({
+        behavior: "smooth"
+      });
+
+    }, 2000); // 2 seconds loading effect
+  };
+</script>
+
+</body>
+  </html>
