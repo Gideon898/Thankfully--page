@@ -1,0 +1,44 @@
+.loading {
+  font-size: 20px;
+  text-align: center;
+  padding: 80px;
+  color: #22c55e;
+}
+
+.hidden {
+  display: none;
+}
+
+.box {
+  background: #111827;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 24px;
+  background: #22c55e;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btn.big {
+  font-size: 18px;
+}
+
+hr {
+  margin: 30px 0;
+  opacity: 0.2;
+}
